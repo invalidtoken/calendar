@@ -1,0 +1,34 @@
+table {
+  border-collapse: collapse;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+td,
+th {
+  padding: 5px;
+}
+
+.cell {
+  cursor: pointer;
+}
+
+#availableCell:hover {
+  background-color: coral;
+  color: white;
+}
+
+#cellBooked {
+  cursor: not-allowed;
+  background-color: teal;
+  color: #ffffff;
+}
+
+#previousDate {
+  color: grey;
+  cursor: not-allowed;
+}
